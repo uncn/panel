@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="panelHeight" format="dimension" />
+        <attr name="panelShadowHeight" format="dimension" />
+        <attr name="panelParallaxOffset" format="dimension" />
+        <attr name="panelFadeColor" format="color" />
+        <attr name="panelFlingVelocity" format="integer" />
+        <attr name="panelDragView" format="reference" />
+        <attr name="panelScrollableView" format="reference" />
+        <attr name="panelOverlay" format="boolean" />
+        <attr name="panelClipPanel" format="boolean" />
+        <attr name="panelAnchorPoint" format="float" />
+        <attr name="panelInitialState" format="enum">
+            <enum name="expanded" value="0" />
+            <enum name="collapsed" value="1" />
+            <enum name="anchored" value="2" />
+            <enum name="hidden" value="3" />
+        </attr>
+        <attr name="panelScrollInterpolator" format="reference" />
+    </declare-styleable>
+
+</resources>
